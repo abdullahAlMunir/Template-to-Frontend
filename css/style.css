@@ -1,0 +1,225 @@
+.bg-custom{
+    background-color: #F5FCFF;
+}
+
+.bg-card{
+    background-color: #F5FCFF;
+}
+
+.border{
+    border: 1px solid #006B6A !important;
+}
+.border-bottom{
+    border-bottom: 1px solid #5E3BEE !important;
+}
+.i-color{
+    color: #006B6A !important;
+}
+
+.p-hero-img{
+    padding-top: 150px;
+}
+
+.border-form{
+    border: 1px solid #5E3BEE;
+}
+
+.border-bottom{
+    border-bottom: 5px solid #5E3BEE !important;
+}
+
+.border-bottom1{
+    border-bottom: 2px solid #5E3BEE !important;
+}
+
+.text-perple{
+    color: #5E3BEE;
+}
+
+.border-footer{
+    border: 1px solid gray;
+    width: 100%;
+}
+
+
+.bg-clr{
+    color: #006B6A;
+}
+
+
+
+.margin-left{
+    margin-left: 400px;
+}
+
+.width2 {
+    width: 90%;
+    align-items: center;
+    margin: 10px auto; /* This centers the div */
+    display: flex; /* Optional, for vertical centering of children */
+    /* text-align: center; */
+}
+
+
+.product-design{
+    color: #5E3BEE;
+}
+
+.home-color{
+    color: #5E3BEE;
+}
+
+.btn-color {
+    background-color: #5E3BEE;
+    border: 2px solid #5E3BEE;
+    border-radius: 5px;
+    min-width: 140px; /* Minimum width */
+    min-height: 50px; /* Minimum height */
+    white-space: nowrap; /* Prevent text wrapping */
+}
+
+.btn-color:hover{
+    background-color: rgb(55, 37, 128);
+    
+}
+
+
+.big-font{
+    font-size: 60px;;
+}
+
+.btn-outline {
+    color: #5E3BEE; 
+    border-color: #5E3BEE !important;
+}
+
+.btn-outline:hover {
+    background-color: #5E3BEE; 
+    color: white;
+}
+
+.card0{    
+    background-color: #F5FCFF;
+}
+
+.h1-font{
+    font-size: 50px;
+}
+
+.p-font{
+    font-size: 15px;
+}
+
+.padding1{
+    padding-right: 300px;
+}
+.padding2{
+    padding-top: 120px;
+    padding-left: 50px;
+}
+
+.btn-hero{
+    background-color: #5E3BEE;
+    width: 120px;
+    height: 50px;
+    border: #5E3BEE;
+    border-radius: 5px !important;
+}
+
+
+.img-style{
+    height: 75px;
+    width: 75px;
+}
+
+/* .padding-footer{
+    margin-left: 110px;
+    padding-left: 110px;
+} */
+
+
+.btn-portfolio {
+    background-color: #e62872; 
+    border-color: #e62872 !important;
+    color: #fff;
+}
+
+.btn-portfolio:hover {
+    background-color: #7a153c; 
+    color: white;
+}
+
+
+
+
+
+
+
+.rounded-4 {
+    border-radius: 1rem !important;
+}
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
+.profile {
+    /* background-image:url("../assets/Group\ 11\ 1.png"); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    height: 75vw;
+    width: 100%;
+    /* margin-top: 5vw; */
+    max-height: 40rem;
+    max-width: 100rem;
+}
+.profile .profile-img {
+    height: 80vw;
+    max-height: 45rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+@media (min-width: 576px) {
+    .profile {
+        height: 60vw;
+        width: 60vw;
+    }
+    .profile .profile-img {
+        height: 65vw;
+    }
+}
+@media (min-width: 768px) {
+    .profile {
+        height: 50vw;
+        width: 50vw;
+    }
+    .profile .profile-img {
+        height: 55vw;
+    }
+}
+@media (min-width: 992px) {
+    .profile {
+        height: 40vw;
+        width: 40vw;
+    }
+    .profile .profile-img {
+        height: 45vw;
+    }
+}
+@media (min-width: 1200px) {
+    .profile {
+        height: 35vw;
+        width: 35vw;
+    }
+    .profile .profile-img {
+        height: 40vw;
+    }
+}
